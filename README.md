@@ -9,6 +9,12 @@ The main objective of this project is to design and tune a control system in MAT
 1. **PID Tuner**: MATLAB’s tool for automatic PID parameter tuning.
 2. **Differential Evolution Algorithm**: A global optimization algorithm based on genetic evolution to refine PID parameters and optimize robot performance.
 
+## Demonstration Video
+
+For an overview of the project and its functionality, watch the following YouTube video:
+
+[![Self-Balancing Robot Control](https://img.youtube.com/vi/ePFcvrLIKrM/0.jpg)](https://www.youtube.com/watch?v=ePFcvrLIKrM&ab_channel=JoaquinColoma)
+
 ### Project Structure
 
 1. **Robot Modeling**: Creating the robot model in Simscape Multibody. Model is inspired by Mouad Boumediene's
@@ -40,12 +46,6 @@ Experiments show that both methods effectively stabilize the robot, though tunin
 1. Clone the repository and open the main file in MATLAB.
 2. Run the Simulink simulation to observe the control system's performance.
 3. Adjust the Differential Evolution algorithm parameters in the `SolucionAutobalanceable.m` script to experiment with different tuning configurations.
-
-## Demonstration Video
-
-For an overview of the project and its functionality, watch the following YouTube video:
-
-[![Self-Balancing Robot Control](https://img.youtube.com/vi/ePFcvrLIKrM/0.jpg)](https://www.youtube.com/watch?v=ePFcvrLIKrM&ab_channel=JoaquinColoma)
 
 ## Conclusion
 
