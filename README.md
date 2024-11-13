@@ -11,9 +11,10 @@ The main objective of this project is to design and tune a control system in MAT
 
 ### Project Structure
 
-1. **Robot Modeling**: Creating the robot model in Simscape Multibody.
-2. **PID Control**: Implementing a PID system to control the balance angle.
-3. **Parameter Optimization**:
+1. **Robot Modeling**: Creating the robot model in Simscape Multibody. Model is inspired by Mouad Boumediene's
+   ![Self-Balancing Robot Model](./Self_Balancing_GA/Imagen1_1.png)
+3. **PID Control**: Implementing a PID system to control the balance angle.
+4. **Parameter Optimization**:
    - **PID Tuner**: Automatic parameter tuning.
    - **Differential Evolution**: Tuning through global optimization.
 
